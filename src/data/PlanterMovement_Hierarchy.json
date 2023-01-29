@@ -1,0 +1,622 @@
+
+
+
+[
+    {
+        "name":"ArmMovement",
+        "children": [
+            {
+                "name":"ArmBlock",
+                "children": [
+                ]
+            },
+            {
+                "name":"ArmPull",
+                "children": []
+            },
+            {
+                "name":"ArmPush",
+                "children": []
+            },
+            {
+                "name":"ArmProp",
+                "children": []
+            },
+            {
+                "name":"ArmSwat",
+                "children": []
+            },
+            {
+                "name":"ArmSwing",
+                "children": []
+            },
+            {
+                "name":"ArmWalk",
+                "children": []
+            },
+            {
+                "name":"BaggingUpMovement",
+                "children": [
+                    {
+                        "name":"BundleInsert",
+                        "children": []
+                    },
+                    {
+                        "name":"BundleUnwrap",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name":"ArmBranchDeflection",
+                "children": []
+            },
+            {
+                "name":"ShovelSwing",
+                "children": []
+            }
+        ]
+    },
+    {
+        "name":"BodyMovement",
+        "children": [
+            {
+                "name":"BodyBend",
+                "children": []
+            },
+            {
+                "name":"BodyLean",
+                "children": []
+            },
+            {
+                "name":"BodyRevolve",
+                "children": []
+            },
+            {
+                "name":"BodyRotate",
+                "children": []
+            },
+            {
+                "name":"BodySlot",
+                "children": []
+            },
+            {
+                "name":"Crouch",
+                "children": []
+            },
+            {
+                "name":"Fall",
+                "children": []
+            },
+            {
+                "name":"Jump",
+                "children": [
+                    {
+                        "name":"AnteriorJump",
+                        "children": []
+                    },
+                    {
+                        "name":"LateralJump",
+                        "children": []
+                    },
+                    {
+                        "name":"DownJump",
+                        "children": []
+                    },
+                    {
+                        "name":"RotateJump",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name":"LogWalk",
+                "children": []
+            },
+            {
+                "name":"Fall",
+                "children": []
+            },
+            {
+                "name":"Run",
+                "children": [
+                    {
+                        "name":"RunningStart",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name":"SlopeWalk",
+                "children": []
+            },
+            {
+                "name":"Stand",
+                "children": []
+            },
+            {
+                "name":"StandUp",
+                "children": []
+            },
+            {
+                "name":"TrenchStepInto",
+                "children": []
+            },
+            {
+                "name":"LogStepOver",
+                "children": []
+            },
+            {
+                "name":"Walk",
+                "children": [
+                    {
+                        "name":"TrenchWalk",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"ClothingMovement",
+        "children": [
+            {
+                "name":"BootMovement",
+                "children": [
+                    {
+                        "name":"BootGrip",
+                        "children": []
+                    },
+                    {
+                        "name":"BootOn",
+                        "children": []
+                    },
+                    {
+                        "name":"BootOff",
+                        "children": []
+                    },
+                    {
+                        "name":"BootWaterProof",
+                        "children": []
+                    },
+                    {
+                        "name":"LacesMovement",
+                        "children": [
+                            {
+                                "name":"LacesTapeOff",
+                                "children": []
+                            },
+                            {
+                                "name":"LacesTapeOn",
+                                "children": []
+                            },
+                            {
+                                "name":"LaceTie",
+                                "children": []
+                            },
+                            {
+                                "name":"LaceUntie",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"ClothingLayer",
+                "children": []
+            },
+            {
+                "name":"GaiterMovement",
+                "children": [
+                    {
+                        "name":"GaiterOn",
+                        "children": []
+                    },
+                    {
+                        "name":"GaiterOff",
+                        "children": []
+                    },
+                    {
+                        "name":"GaiterTighten",
+                        "children": []
+                    },
+                    {
+                        "name":"GaiterRemoveMud",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name":"GloveMovement",
+                "children": [
+                    {
+                        "name":"GloveOn",
+                        "children": []
+                    },
+                    {
+                        "name":"GloveOff",
+                        "children": []
+                    },
+                    {
+                        "name":"CuffGrip",
+                        "children": []
+                    },
+                    {
+                        "name":"FingerGrip",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name":"HatMovement",
+                "children": [
+                    {
+                        "name":"HatOn",
+                        "children": []
+                    },
+                    {
+                        "name":"HatOff",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name":"ZipperMovement",
+                "children": [
+                    {
+                        "name":"ZipperOpen",
+                        "children": [
+                            {
+                                "name":"ZipperStart",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name":"ZipperClose",
+                        "children": [
+                            {
+                                "name":"ZipperInsert",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        
+           
+            
+        ]
+    },
+    {
+        "name":"FlagMovement",
+        "children": [
+            {
+                "name":"FlagKnot",
+                "children": []
+            },
+            {
+                "name":"FlagRip",
+                "children": []
+            },
+            {
+                "name":"FlagThrow",
+                "children": []
+            },
+            {
+                "name":"FlagUnroll",
+                "children": []
+            },
+            {
+                "name":"FlagWrap",
+                "children": []
+            }
+        ]
+    },
+    {
+        "name":"FootMovement",
+        "children": [
+            {
+                "name":"FootArchSmear",
+                "children": []
+            },
+            {
+                "name":"FootClose",
+                "children": []
+            },
+            {
+                "name":"FootDig",
+                "children": []
+            },
+            {
+                "name":"FootDorsiflexion",
+                "children": []
+            },
+            {
+                "name":"FootDrag",
+                "children": []
+            },
+            {
+                "name":"FootEversion",
+                "children": []
+            },
+            {
+                "name":"FootInversion",
+                "children": []
+            },
+            {
+                "name":"FootScreef",
+                "children": []
+            },
+            {
+                "name":"PlanterFlexion",
+                "children": []
+            }
+        ]
+    },
+    {
+        "name":"HandMovement",
+        "children": [
+            {
+                "name":"BuckleGrip",
+                "children": []
+            },
+            {
+                "name":"BagGrip",
+                "children": []
+            },
+            {
+                "name":"BoxGrip",
+                "children": []
+            },
+            {
+                "name":"BranchGrip",
+                "children": []
+            },
+            {
+                "name":"BranchSnapGrip",
+                "children": []
+            },
+            {
+                "name":"BundleGrip",
+                "children": []
+            },
+            {
+                "name":"BundlePeel",
+                "children": []
+            },
+            {
+                "name":"BundleRollUp",
+                "children": []
+            },
+            {
+                "name":"BundleUnroll",
+                "children": []
+            },
+            {
+                "name":"BundleFlip",
+                "children": []
+            },
+            {
+                "name":"FertilizerInsert",
+                "children": []
+            },
+            {
+                "name":"HandClose",
+                "children": []
+            },
+            {
+                "name":"HandPoke",
+                "children": []
+            },
+            {
+                "name":"HandScreef",
+                "children": []
+            },
+            {
+                "name":"InsertTree",
+                "children": []
+            },
+            {
+                "name":"PinchGrip",
+                "children": []
+            },
+            {
+                "name":"ShovelGrip",
+                "children": []
+            },
+            {
+                "name":"TreeGrip",
+                "children": []
+            },
+            {
+                "name":"TreeFlip",
+                "children": []
+            },
+            {
+                "name":"TreeSlide",
+                "children": []
+            },
+            {
+                "name":"TreeTest",
+                "children": [
+                    {
+                        "name":"TreePullTest",
+                        "children": []
+                    },
+                    {
+                        "name":"TreeTwirlTest",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"HeadMovement",
+        "children": [
+            {
+                "name":"ListenTo",
+                "children": []
+            },
+            {
+                "name":"HeadProtraction",
+                "children": []
+            },
+            {
+                "name":"HeadRetraction",
+                "children": []
+            },
+            {
+                "name":"Look",
+                "children": [
+                    {
+                        "name":"UpLook",
+                        "children": []
+                    },
+                    {
+                        "name":"DownLook",
+                        "children": []
+                    },
+                    {
+                        "name":"AvoidLook",
+                        "children": []
+                    },
+                    {
+                        "name":"ScanLook",
+                        "children": []
+                    },
+                    {
+                        "name":"FocusLook",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name":"NeckExtension",
+                "children": []
+            },
+            {
+                "name":"NeckFlexion",
+                "children": []
+            }
+        ]
+    },
+    {
+        "name":"HoleMovement",
+        "children": [
+            {
+                "name":"HoleClose",
+                "children": [
+                    {
+                        "name":"HoleFootClose",
+                        "children": [
+                            {
+                                "name":"HoleFootPullClose",
+                                "children": [
+                                    {
+                                        "name":"HoleHeelPullClose",
+                                        "children": []
+                                    },
+                                    {
+                                        "name":"HoleToePushClose",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"HoleFootPushClose",
+                                "children": [
+                                    {
+                                        "name":"HoleToePushClose",
+                                        "children": []
+                                    },
+                                    {
+                                        "name":"HoleHeelPushClose",
+                                        "children": []
+                                    },
+                                    {
+                                        "name":"HoleStompClose",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"HoleHandClose",
+                        "children": [
+                            {
+                                "name":"HolePinchClose",
+                                "children": []
+                            },
+                            {
+                                "name":"HoleHandPullClose",
+                                "children": [
+                                    {
+                                        "name":"HoleStuffClose",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"HoleHandPushClose",
+                                "children": [
+                                    {
+                                        "name":"HolePunchClose",
+                                        "children": []
+                                    }
+                                ]
+                            }
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"HoleExpand",
+                "children": []
+            },
+            {
+                "name":"HoleOpen",
+                "children": [
+                    {
+                        "name":"HoleCcutOpen",
+                        "children": []
+                    },
+                    {
+                        "name":"HoleDoubleTapOpen",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"LegMovement",
+        "children": [
+            {
+                "name":"Crouch",
+                "children": [
+                    {
+                        "name":"CrouchWalk",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name":"",
+                "children": []
+            },
+            {
+                "name":"",
+                "children": []
+            },
+            {
+                "name":"",
+                "children": []
+            }
+        ]
+    }   
+]
